@@ -1,0 +1,30 @@
+SELECT job_title_short AS title,
+       job_location AS location,
+
+
+--AVERAGE SALARY YEARLY AND HOURLY FOR JOBS THAT WERE POSTED AFTER JUNE 1 2023
+
+SELECT job_schedule_type, job_title_short, AVG(salary_year_avg) AS, AVG(salary_hour_avg)
+FROM job_postings_fact
+WHERE job_posted_date > '2023-06-01' AND 
+GROUP BY job_schedule_type, job_title_short;
+
+SELECT * FROM job_postings_fact
+LIMIT 5;
+
+SELECT COUNT(job_id) AS job_posted_count, job_title_short,
+       EXTRACT(MONTH FROM job_posted_date AT TIME ZONE 'UTC' AT TIME ZONE 'America/New_York') AS month
+FROM job_postings_fact
+WHERE job_posted_date BETWEEN '2023-01-01' AND '2023-12-31'
+GROUP BY month, job_title_short
+ORDER BY month;
+
+SELECT company_dim.name, job_postings_fact.job_title_short, job_postings_fact.job_posted_date, job_postings_fact.job_health_insurance
+FROM job_postings_fact
+JOIN company_dim
+     ON job_postings_fact.company_id=company_dim.company_id
+WHERE job_health_insurance = 'TRUE' 
+      AND EXTRACT(QUARTER FROM job_posted_date::TIMESTAMP) = 2
+      AND EXTRACT(YEAR FROM job_posted_date::TIMESTAMP) = 2023
+GROUP BY company_dim.name, job_postings_fact.job_posted_date, job_postings_fact.job_title_short, job_postings_fact.job_health_insurance
+ORDER BY job_postings_fact.job_posted_date;
