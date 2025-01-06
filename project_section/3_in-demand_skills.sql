@@ -17,7 +17,7 @@ FROM remote_job_skills
 INNER JOIN skills_dim AS skills
     ON skills.skill_id=remote_job_skills.skill_id
 ORDER BY skill_count DESC
-LIMIT 7;
+LIMIT 10;
 
 -- edited more compact version
 

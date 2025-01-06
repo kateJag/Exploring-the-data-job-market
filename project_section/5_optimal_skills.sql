@@ -29,13 +29,13 @@ average_salary AS (
       AND salary_year_avg IS NOT NULL
     GROUP BY skills_dim.skill_id
 )
-SELECT
+SELECT DISTINCT
     skills_demand.skill_id,
     skills_demand.skills,
     skills_demand.demand_count,
     average_salary.avg_salary
 FROM skills_demand
 INNER JOIN average_salary ON skills_demand.skill_id = average_salary.skill_id
-WHERE demand_count > 10
+WHERE demand_count > 20 AND avg_salary > 100000 AND skills_demand.skills NOT IN ('mongodb')
 ORDER BY avg_salary DESC, demand_count DESC
 LIMIT 25;
