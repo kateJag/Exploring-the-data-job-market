@@ -53,7 +53,7 @@ Breakdown of Top Data Analyst Jobs in 2023
 - **Diverse Employers:** High-paying roles are offered by companies such as SmartAsset, Meta, and AT&T, reflecting strong demand across various industries.
 - **Job Title Variety:** A broad spectrum of job titles exists, ranging from Data Analyst to Director of Analytics, highlighting the diversity of roles and specializations within data analytics.
 
-![Top Paying Remote Roles](assets\top_paying_remote_data_analyst_jobs_2023.png)
+![Top Paying Remote Roles](assets/top_paying_remote_data_analyst_jobs_2023.png)
 *This bar chart displays the top 10 salaries for data analysts, visualized based on SQL query results.*
 
 ### 2. Skills for Top-Paying Jobs
@@ -88,8 +88,8 @@ Breakdown of Skills Analysis:
 - **Key Tools:** R, Excel, Azure, and Pandas are frequently mentioned, reflecting their importance in analytics, reporting, and cloud/data processing.
 - **Emerging Technologies:** Databricks, AWS, and Pyspark highlight the growing need for cloud and big data expertise.
 
-![Top Skills for High-Paying Data Analyst Roles](assets\top_skills_for_high_paying_data_analyst.png)
-*The chart visualizes the Top 10 Most In-Demand Skills for High-Paying Data Analyst Roles in 2023 based on their frequency of appearance in job postings.*
+![Top Skills for High-Paying Data Analyst Roles](assets/top_skills_for_high_paying_data_analyst.png)
+*The chart visualizes the Top 10 Most In-Demand Skills for High-Paying Data Analyst Roles in 2023 based on their frequency of appearance in job postings*
 
 ### 3. Most In-Demand Skills for Data Analysts
 This query identified the most commonly requested skills in job postings, emphasizing areas with significant demand.
@@ -248,4 +248,4 @@ Through this journey, I’ve significantly enhanced my SQL expertise with these 
 - **Optimal Skills for Market Value:** With high demand and competitive salaries, SQL remains one of the most valuable skills for data analysts to maximize their marketability.
 
 ### Closing Thoughts
-This project significantly enhanced my SQL skills and offered valuable insights into the data analyst job market. The analysis findings serve as a roadmap for prioritizing skill development and streamlining job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-paying skills. This exploration underscores the importance of continuous learning and adapting to emerging trends in the field of data analytics.
+This project significantly enhanced my SQL skills and offered valuable insights into the data analyst job market. The analysis findings serve as a roadmap for prioritizing skill development and streamlining job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-paying skills. 
