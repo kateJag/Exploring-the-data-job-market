@@ -7,7 +7,7 @@ This project focuses on data analyst roles, uncovering 💰 high-paying opportun
 # Background
 This project aims to streamline the job search process in the data analytics field by identifying top-paying and in-demand skills. Born out of a need to navigate the data analyst job market more efficiently, it serves as a guide to finding optimal career opportunities.
 
-The dataset originates from my SQL Course and is packed with valuable insights, including job titles, salaries, locations, and key skills.
+
 
 ### Questions Addressed Through SQL Queries:
 - Which data analyst jobs offer the highest salaries?
