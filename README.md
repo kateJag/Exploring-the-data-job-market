@@ -16,7 +16,7 @@ This project aims to streamline the job search process in the data analytics fie
 - What skills are linked to higher salary brackets?
 - Which skills are the most valuable to learn for career optimization?
 
-# Tools I Used
+# Tools Used
 To delve into the data analyst job market, I leveraged several key tools:
 
 - **SQL:** The core of my analysis, enabling me to query the database and extract valuable insights.
@@ -231,13 +231,6 @@ TensorFlow: With an average salary of $120,647, it’s highly relevant for roles
 
 *Table of the most optimal skills for data ananlyst sorted by salary*
 
-# What I learned
-Through this journey, I’ve significantly enhanced my SQL expertise with these key skills:
-
-🔗 Advanced Query Building: Mastered complex SQL techniques, including table joins, advanced merging, and utilizing WITH clauses for efficient temporary table management.
-📊 Data Aggregation: Gained proficiency in GROUP BY and aggregate functions like COUNT() and AVG(), transforming raw data into meaningful summaries.
-🧠 Analytical Problem-Solving: Sharpened my ability to tackle real-world challenges, converting complex questions into actionable insights with powerful SQL queries.
-
 # Conclusions
 
 ### Insights
@@ -246,6 +239,3 @@ Through this journey, I’ve significantly enhanced my SQL expertise with these 
 - **Most In-Demand Skill:** SQL stands out as the most sought-after skill in the data analyst job market, solidifying its importance for job seekers.
 - **Skills Linked to Higher Salaries:** Specialized skills like SVN and Solidity command the highest average salaries, highlighting the premium placed on niche expertise.
 - **Optimal Skills for Market Value:** With high demand and competitive salaries, SQL remains one of the most valuable skills for data analysts to maximize their marketability.
-
-### Closing Thoughts
-This project significantly enhanced my SQL skills and offered valuable insights into the data analyst job market. The analysis findings serve as a roadmap for prioritizing skill development and streamlining job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-paying skills. 
